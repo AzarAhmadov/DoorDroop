@@ -764,6 +764,7 @@ a {
 
 #pricing .prising-item-right .btn-for-input {
     margin-top: 28px;
+    display: flex;
 }
 
 #pricing .prising-item-right .btn-for-input button:first-child {
@@ -784,6 +785,19 @@ a {
     color: #9ba6af;
     background: transparent;
     border: 1px solid #cdd7e0;
+}
+
+#pricing .prising-item-right .btn-for-input button {display: flex; align-items: center;}
+
+#pricing .prising-item-right .btn-for-input button:last-child  span{
+    background: #afb9c3;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 9px;
+    width: 20px;
+    height: 20px;
 }
 
 #pricing .prising-item-right label:first-child {
