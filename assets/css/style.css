@@ -297,7 +297,7 @@ a {
     color: #fff;
     display: grid;
     place-items: center;
-    font-family: cLight;
+    font-family: cRegular;
     border-radius: 100px;
     height: 49px;
     font-size: 18px;
@@ -616,7 +616,7 @@ a {
     color: #fff;
     display: grid;
     place-items: center;
-    font-family: cLight;
+    font-family: cRegular;
     border-radius: 100px;
     height: 49px;
     font-size: 18px;
@@ -916,10 +916,17 @@ a {
         padding: 0;
     }
 
+    .ab-col{
+        padding-left: 40px;
+    }
+
 
 }
 
 @media only screen and (max-width:1200px) {
+    .ab-col{
+        padding-left: 0px;
+    }
     #pricing .col-lg-7 {
         display: flex;
         justify-content: center;
@@ -944,16 +951,6 @@ a {
 
     .about .a-col p {
         width: 100%;
-        text-align: center;
-    }
-
-    .about .a-col h3 {
-        text-align: center;
-    }
-
-    .about .a-col a {
-        display: flex;
-        justify-content: center;
     }
 
     .menu-bar {
@@ -1016,6 +1013,17 @@ a {
 }
 
 @media only screen and (max-width:992px) {
+    .about .a-col h3 {
+        text-align: center;
+    }
+    .about .a-col p{
+        text-align: center;
+    }
+
+    .about .a-col a {
+        display: flex;
+        justify-content: center;
+    }
     .prising-item-right {
         width: 90%;
     }
