@@ -345,9 +345,23 @@ a {
     max-width: 1211px;
 }
 .about .img-back{
-    background: red;
     border-radius: 5px;
     position: relative;
+}
+
+.img-back-services{
+    position: relative;
+    border-radius: 5px;
+}
+
+.img-back-services::after{
+    position: absolute;
+    top: 0;
+    content:"";
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.298);
 }
 
 .about .img-back::after{
@@ -359,6 +373,10 @@ a {
     background: rgba(255, 255, 255, 0.298);
     left: 0;
 
+}
+
+.ab-col{
+    padding-left: 148px;
 }
 .about img {
     border-radius: 5px;
