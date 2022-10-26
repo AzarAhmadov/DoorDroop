@@ -513,9 +513,8 @@ a {
 #bottom-banner {
     background: #6d37eb;
 }
-
-#bottom-banner .b-col {
-    height: 317px;
+ .b-col-right{
+  padding-left: 45px ; 
 }
 
 #bottom-banner .b-col p {
