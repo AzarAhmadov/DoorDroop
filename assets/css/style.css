@@ -98,7 +98,8 @@ a {
 #header nav ul li {
     margin-left: 46px;
 }
-#header nav ul li.fa{
+
+#header nav ul li.fa {
     margin-right: 30px;
 }
 
@@ -251,7 +252,7 @@ a {
     font-size: 15px;
 }
 
-#banner .b-bar .bar-text p.only{
+#banner .b-bar .bar-text p.only {
     font-size: 14px;
 }
 
@@ -344,20 +345,21 @@ a {
 .about .container {
     max-width: 1211px;
 }
-.about .img-back{
+
+.about .img-back {
     border-radius: 5px;
     position: relative;
 }
 
-.img-back-services{
+.img-back-services {
     position: relative;
     border-radius: 5px;
 }
 
-.img-back-services::after{
+.img-back-services::after {
     position: absolute;
     top: 0;
-    content:"";
+    content: "";
     left: 0;
     width: 100%;
     height: 100%;
@@ -365,13 +367,13 @@ a {
     border-radius: 5px;
 }
 
-.img-back-services img{
+.img-back-services img {
     border-radius: 5px;
 }
 
-.about .img-back::after{
+.about .img-back::after {
     position: absolute;
-    content:"";
+    content: "";
     width: 100%;
     border-radius: 5px;
     height: 100%;
@@ -381,9 +383,10 @@ a {
 
 }
 
-.ab-col{
+.ab-col {
     padding-left: 148px;
 }
+
 .about img {
     border-radius: 5px;
 }
@@ -556,8 +559,9 @@ a {
     align-items: center;
     justify-content: center;
 }
- .b-col-right{
-  padding-left: 45px ; 
+
+.b-col-right {
+    padding-left: 45px;
 }
 
 
@@ -787,9 +791,12 @@ a {
     border: 2px solid #cdd7e0;
 }
 
-#pricing .prising-item-right .btn-for-input button {display: flex; align-items: center;}
+#pricing .prising-item-right .btn-for-input button {
+    display: flex;
+    align-items: center;
+}
 
-#pricing .prising-item-right .btn-for-input button:last-child  span{
+#pricing .prising-item-right .btn-for-input button:last-child span {
     background: #afb9c3;
     border-radius: 50%;
     display: flex;
@@ -815,6 +822,7 @@ a {
 #pricing .col-lg-7 .p-item {
     padding-left: 32px;
     padding-right: 29px;
+    border-radius: 5px;
     padding-top: 30px;
     padding-bottom: 30px;
     width: 690px;
@@ -929,7 +937,7 @@ a {
         padding: 0;
     }
 
-    .ab-col{
+    .ab-col {
         padding-left: 40px;
     }
 
@@ -937,9 +945,10 @@ a {
 }
 
 @media only screen and (max-width:1200px) {
-    .ab-col{
+    .ab-col {
         padding-left: 0px;
     }
+
     #pricing .col-lg-7 {
         display: flex;
         justify-content: center;
@@ -1026,13 +1035,15 @@ a {
 }
 
 @media only screen and (max-width:992px) {
-    .b-col-right{
+    .b-col-right {
         padding: 0;
     }
+
     .about .a-col h3 {
         text-align: center;
     }
-    .about .a-col p{
+
+    .about .a-col p {
         text-align: center;
     }
 
@@ -1040,6 +1051,7 @@ a {
         display: flex;
         justify-content: center;
     }
+
     .prising-item-right {
         width: 90%;
     }
@@ -1194,7 +1206,7 @@ a {
 }
 
 @media only screen and (max-width:578px) {
-    .ab-col{
+    .ab-col {
         padding: 0 10px;
     }
 
