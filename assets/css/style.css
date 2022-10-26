@@ -122,7 +122,7 @@ a {
 }
 
 #header .h-btn a {
-    font-family: cLight;
+    font-family: cRegular;
     width: 154px;
     height: 48px;
     font-size: 18px;
@@ -154,7 +154,7 @@ a {
 }
 
 #banner .container {
-    max-width: 1200px;
+    max-width: 1183px;
 }
 
 #banner .b-row .b-col-left {
@@ -533,7 +533,7 @@ a {
     color: #fff;
     background: #ff00fe;
     display: grid;
-    font-family: cMedium;
+    font-family: cRegular;
     place-items: center;
     font-size: 22px;
 }
