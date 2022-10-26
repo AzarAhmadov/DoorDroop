@@ -222,7 +222,9 @@ a {
 #banner .b-bar .bar-text span {
     color: #ff00ff;
     font-family: cMedium;
+    display: block;
     font-size: 16px;
+    padding-top: 10px;
 }
 
 #banner .b-bar .bar-text h5 {
@@ -233,10 +235,10 @@ a {
 }
 
 #banner .b-bar .bar-text p {
-    font-family: cMedium;
+    font-family: cLight;
     color: #bf9fef;
     line-height: 18px;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 #banner .b-bar .bar-text {
@@ -265,6 +267,7 @@ a {
     font-family: cLight;
     color: #fff;
     margin-bottom: 24px;
+    letter-spacing: 1px;
 }
 
 #banner .b-col-right p {
