@@ -203,22 +203,22 @@ a {
     align-items: center;
     display: flex;
     position: relative;
-    top: 1px;
+    top: 4px;
 }
 
 #banner .b-bar ul li:nth-child(2) {
     position: absolute;
-    top: 313px;
+    top: 317px;
 }
 
 #banner .b-bar ul li:nth-child(3) {
     position: absolute;
-    top: 484px;
+    top: 487px;
 }
 
 #banner .b-bar ul li:nth-child(4) {
     position: absolute;
-    top: 655px;
+    top: 657px;
 }
 
 #banner .b-bar ul li>svg {
@@ -784,7 +784,7 @@ a {
     margin-left: 16px;
     color: #9ba6af;
     background: transparent;
-    border: 1px solid #cdd7e0;
+    border: 2px solid #cdd7e0;
 }
 
 #pricing .prising-item-right .btn-for-input button {display: flex; align-items: center;}
