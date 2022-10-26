@@ -13,6 +13,11 @@
 }
 
 @font-face {
+    font-family: cThin;
+    src: url(../font/CerebriSansPro-Thin.ttf)
+}
+
+@font-face {
     font-family: ceLight;
     src: url(../font/CerebriSansPro-ExtraLight.otf)
 }
@@ -280,7 +285,7 @@ a {
 }
 
 #banner .b-col-right p {
-    font-family: cLight;
+    font-family: cThin;
     font-size: 40px;
     line-height: 55px;
     color: #fff;
