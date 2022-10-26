@@ -1012,6 +1012,9 @@ a {
 }
 
 @media only screen and (max-width:992px) {
+    .b-col-right{
+        padding: 0;
+    }
     .about .a-col h3 {
         text-align: center;
     }
@@ -1177,6 +1180,9 @@ a {
 }
 
 @media only screen and (max-width:578px) {
+    .ab-col{
+        padding: 0 10px;
+    }
 
     #pricing .prising-item-right select,
     .select {
