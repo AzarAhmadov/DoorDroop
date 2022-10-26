@@ -18,6 +18,11 @@
 }
 
 @font-face {
+    font-family: cRegular;
+    src: url(../font/cerebrisans-regular.ttf)
+}
+
+@font-face {
     font-family: cMedium;
     src: url(../font/CerebriSansPro-Medium.ttf)
 }
@@ -235,7 +240,7 @@ a {
 }
 
 #banner .b-bar .bar-text p {
-    font-family: cLight;
+    font-family: cRegular;
     color: #bf9fef;
     line-height: 18px;
     font-size: 13px;
