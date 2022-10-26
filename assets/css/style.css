@@ -362,12 +362,18 @@ a {
     width: 100%;
     height: 100%;
     background: rgba(255, 255, 255, 0.298);
+    border-radius: 5px;
+}
+
+.img-back-services img{
+    border-radius: 5px;
 }
 
 .about .img-back::after{
     position: absolute;
     content:"";
     width: 100%;
+    border-radius: 5px;
     height: 100%;
     top: 0;
     background: rgba(255, 255, 255, 0.298);
