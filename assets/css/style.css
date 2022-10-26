@@ -243,7 +243,11 @@ a {
     font-family: cRegular;
     color: #bf9fef;
     line-height: 18px;
-    font-size: 13px;
+    font-size: 15px;
+}
+
+#banner .b-bar .bar-text p.only{
+    font-size: 14px;
 }
 
 #banner .b-bar .bar-text {
