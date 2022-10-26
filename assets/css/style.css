@@ -88,6 +88,9 @@ a {
 #header nav ul li {
     margin-left: 59px;
 }
+#header nav ul li.fa{
+    margin-right: 30px;
+}
 
 #header nav ul li:first-child {
     margin-left: 0;
